@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001-1
+      author: liquibase
+      changes:
+        - sql:
+            sql: INSERT INTO wallet VALUES ('5ba5dfe1-577c-4513-8550-ef63b4a15a97', 1000.0, 'Anton Bazhin'),
+                                           ('5ba5dfe1-577c-4513-8550-ef63b4a15a98', 5000.3, 'Anton123'),
+                                           ('5ba5dfe1-577c-4513-8550-ef63b4a15a99', 1234.12, 'Nikita')
